@@ -34,8 +34,8 @@ const deleteTodo: deleteTodo = id => {
 
   return (
     <React.Fragment>
-      <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
       <AddTodoForm addTodo={addTodo}/>
+      <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
     </React.Fragment>
   );
 }
